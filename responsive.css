@@ -1,7 +1,7 @@
 /* ...........
    mobile view
 .............. */
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 426px) {
 
     .c-name {
     margin: 0 auto;
@@ -48,6 +48,7 @@ grid-gap: 10px;
   }
   .wrapper .items {
     text-align: center;
+    margin: 0 auto;
   }
 
   .down {
@@ -61,4 +62,10 @@ grid-gap: 10px;
   .down .text{
       text-align: center;
   }
-}
+};
+
+
+
+
+/* tablet view  */
+

@@ -39,6 +39,9 @@ h1 {
     transform: rotate(15deg);
     transition: 0.3s ease-in-out;
 }
+.far{
+    color: red;
+}
 
 /* header part */
 header {
@@ -72,8 +75,8 @@ header ul li {
 /* end */
 
 .logos ul {
-  display: flex;
-  justify-content: space-between;
+  display: flex;;
+  justify-content: space-around;
   align-items: center;
 }
 
