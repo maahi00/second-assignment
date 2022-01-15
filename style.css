@@ -12,7 +12,7 @@ body {
   font-size: 20px;
   max-width: 1080px;
   margin: 0 auto;
-  /* line-height: 8px; */
+  line-height: 35px;
 }
 h1 {
   font-size: 35px;
@@ -30,17 +30,18 @@ h1 {
   border: none;
   border-radius: 25px;
 }
-.btn:hover{
-    background-color: rgb(41, 0, 8);
-    transition: 0.3s ease-in-out;
+.btn:hover {
+  background-color: rgb(41, 0, 8);
+  transition: 0.3s ease-in-out;
 }
 
-.top img:hover{
-    transform: rotate(15deg);
-    transition: 0.3s ease-in-out;
+.top img:hover {
+  transform: rotate(15deg) scale(1.4);
+  transition: 0.3s ease-in-out;
+  overflow: hidden;
 }
-.far{
-    color: red;
+.far {
+  color: red;
 }
 
 /* header part */
@@ -75,7 +76,7 @@ header ul li {
 /* end */
 
 .logos ul {
-  display: flex;;
+  display: flex;
   justify-content: space-around;
   align-items: center;
 }
@@ -124,6 +125,7 @@ header ul li {
   justify-content: space-between;
   align-items: flex-start;
   margin-top: 150px;
+  margin-bottom:130px;
 }
 
 /* footer */
